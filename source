@@ -9,9 +9,6 @@ import(
 	"strings"
 )
 
-
-
-
 func replaceAtIndex(in string, i int) string {
     out := []rune(in)
     
@@ -21,12 +18,6 @@ func replaceAtIndex(in string, i int) string {
     out[i-1]='\n'
     return string(out)
 }
-
-
-
-
-
-
 
 func checkWithFullName(sectionName string, studentName string)bool{
 
@@ -63,9 +54,6 @@ func checkWithFullName(sectionName string, studentName string)bool{
 
 }
 
-
-
-
 func checkInResultMain(firstName string , lastName string , resultFile string)bool{
 
 	firstName=strings.ToUpper(firstName)
@@ -97,10 +85,6 @@ func checkInResultMain(firstName string , lastName string , resultFile string)bo
 
 }
 
-
-
-
-
 func checkInResult(studentname string)int32{
 
 	var count int32
@@ -127,15 +111,7 @@ func checkInResult(studentname string)int32{
 
 	return count
 
-
-
 }
-
-
-
-
-
-
 
 func checkinSection(fullNam string , whichTypeofName int32 , sectionPath string)bool{
 
@@ -334,23 +310,10 @@ func checkinSection(fullNam string , whichTypeofName int32 , sectionPath string)
 
 			}
 
-			
 
-			
-
-
-			return false
-
-
+	return false
 
 }
-
-
-
-
-
-
-
 
 func fullName(){
 	
@@ -383,8 +346,6 @@ func fullName(){
 	//fmt.Println("Full name is : "+fullNam)
 
 }
-
-
 
 
 func checkWithPartName(sectwithFile string , pname string)bool{
@@ -447,10 +408,6 @@ func checkWithPartName(sectwithFile string , pname string)bool{
 
 
 }
-
-
-
-
 
 
 func checkpartialInSection(partname string)bool{
@@ -578,11 +535,6 @@ func checkpartialInSection(partname string)bool{
 
 }
 
-
-
-
-
-
 func partialName(){
 
 	var partName string
@@ -598,9 +550,6 @@ func partialName(){
 
 
 }
-
-
-
 
 func checkandPrintsectionstudent(sectFileinfo string){
 
@@ -618,18 +567,7 @@ func checkandPrintsectionstudent(sectFileinfo string){
 		checkinSection(readName,2,sectFileinfo)
 	}
 
-
-
 }
-
-
-
-
-
-
-
-
-
 
 func sectionName(){
 
@@ -661,21 +599,7 @@ func sectionName(){
 	checkandPrintsectionstudent(wholeseectName)
 
 
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 func main() {
 
