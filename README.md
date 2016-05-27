@@ -8,6 +8,9 @@ Takes the input as partial name and suggest full name and status.
 It also gives the information of student that also study in other section.
 
 
+NOTE: You should download the sections,lme,patsy,casis folders and save the code and name it final.go in same directory 
+      then you test.
+
 
 1. Creating an envrionment
 
