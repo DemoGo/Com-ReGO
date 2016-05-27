@@ -9,7 +9,9 @@ It also gives the information of student that also study in other section.
 
 
 NOTE: You should download the sections,lme,patsy,casis folders and save the code and name it final.go in same directory 
-      then you test.
+      then you test
+      
+      link to download all files=https://drive.google.com/folderview?id=0BwKr2qfLihCUOFF1TVhhaVEycGs&usp=sharing
 
 
 1. Creating an envrionment
